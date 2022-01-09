@@ -13,6 +13,8 @@ import NewsDetails from "./Pages/News/NewsDetails";
 import Faq from "./Pages/Faq";
 import Careers from "./Pages/Careers";
 import Team from "./Pages/Team";
+import TeamDetails from "./Pages/TeamDetails";
+import WhyChooseUs from "./Pages/WhyChooseUs";
 
 function App() {
   return (
@@ -33,6 +35,8 @@ function App() {
           <Route path="/faq" element={<Faq />} />
           <Route path="/careers" element={<Careers />} />
           <Route path="/team" element={<Team />} />
+          <Route path="/teamDetails" element={<TeamDetails />} />
+          <Route path="/chooseUs" element={<WhyChooseUs />} />
         </Routes>
         <Footer />
       </BrowserRouter>
