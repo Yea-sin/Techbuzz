@@ -15,6 +15,8 @@ import Careers from "./Pages/Careers";
 import Team from "./Pages/Team";
 import TeamDetails from "./Pages/TeamDetails";
 import WhyChooseUs from "./Pages/WhyChooseUs";
+import Portfolio from "./Pages/Portfolio";
+import PortfolioDetails from "./Pages/PortfolioDetails";
 
 function App() {
   return (
@@ -37,6 +39,8 @@ function App() {
           <Route path="/team" element={<Team />} />
           <Route path="/teamDetails" element={<TeamDetails />} />
           <Route path="/chooseUs" element={<WhyChooseUs />} />
+          <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/portfolioDetails" element={<PortfolioDetails />} />
         </Routes>
         <Footer />
       </BrowserRouter>

@@ -33,7 +33,7 @@ const About = () => {
                   <li className="nav-item">
                     <a
                       className="nav-link active"
-                      href="#tab-1"
+                      href="/chooseUs"
                       role="tab"
                       data-toggle="tab">
                       Our Values
@@ -42,7 +42,7 @@ const About = () => {
                   <li className="nav-item">
                     <a
                       className="nav-link"
-                      href="#tab-2"
+                      href="/chooseUs"
                       role="tab"
                       data-toggle="tab">
                       Our Skills
@@ -51,7 +51,7 @@ const About = () => {
                   <li className="nav-item">
                     <a
                       className="nav-link"
-                      href="#tab-2"
+                      href="/chooseUs"
                       role="tab"
                       data-toggle="tab">
                       Our Mission

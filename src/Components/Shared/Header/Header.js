@@ -52,7 +52,7 @@ const Header = () => {
                       </ul>
                     </div>
                   </div>
-                  <a href="careers.html" className="job-btn">
+                  <a href="/careers" className="job-btn">
                     <i className="fal fa-briefcase"></i> Get Job Feeds
                   </a>
                 </div>
@@ -65,7 +65,7 @@ const Header = () => {
             <div className="row">
               <div className="col-xl-2 col-lg-2 col-md-4 my-auto">
                 <div className="header__logo">
-                  <a href="index.html">
+                  <a href="/homeOne">
                     <img src="assets/images/logo/logo.png" alt="" />
                   </a>
                 </div>
@@ -84,9 +84,6 @@ const Header = () => {
                           </li>
                           <li>
                             <a href="/HomeTwo">Homepage 02</a>
-                          </li>
-                          <li>
-                            <a href="index-03.html">Homepage 03</a>
                           </li>
                         </ul>
                       </li>
@@ -127,12 +124,10 @@ const Header = () => {
                             <a href="/chooseUs">Why Choose</a>
                           </li>
                           <li>
-                            <a href="portfolio.html">Portfolio</a>
+                            <a href="/portfolio">Portfolio</a>
                           </li>
                           <li>
-                            <a href="portfolio-details.html">
-                              Portfolio Details
-                            </a>
+                            <a href="/portfolioDetails">Portfolio Details</a>
                           </li>
                         </ul>
                       </li>
