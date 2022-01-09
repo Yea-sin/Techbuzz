@@ -94,7 +94,7 @@ const Header = () => {
                         <a href="/about">About</a>
                       </li>
                       <li>
-                        <a href="services.html">
+                        <a href="/services">
                           Services <span>+</span>
                         </a>
                         <ul className="sub-menu">
@@ -102,7 +102,7 @@ const Header = () => {
                             <a href="\services">Services</a>
                           </li>
                           <li>
-                            <a href="\servicesDetails">Service Details</a>
+                            <a href="\serviceDetails">Service Details</a>
                           </li>
                         </ul>
                       </li>
@@ -112,13 +112,13 @@ const Header = () => {
                         </a>
                         <ul className="sub-menu">
                           <li>
-                            <a href="faq.html">Faq</a>
+                            <a href="/faq">Faq</a>
                           </li>
                           <li>
-                            <a href="careers.html">Careers</a>
+                            <a href="/careers">Careers</a>
                           </li>
                           <li>
-                            <a href="team.html">Team</a>
+                            <a href="/team">Team</a>
                           </li>
                           <li>
                             <a href="team-details.html">Team Details</a>
@@ -137,13 +137,13 @@ const Header = () => {
                         </ul>
                       </li>
                       <li>
-                        <a href="news.html">News</a>
+                        <a href="/news">News</a>
                         <ul className="sub-menu">
                           <li>
-                            <a href="news.html">News</a>
+                            <a href="/news">News</a>
                           </li>
                           <li>
-                            <a href="news-details.html">News Details</a>
+                            <a href="/newsDetails">News Details</a>
                           </li>
                         </ul>
                       </li>
@@ -157,7 +157,7 @@ const Header = () => {
               </div>
               <div className="col-xl-3 col-lg-3 col-md-8 my-auto d-none d-xl-block d-lg-block">
                 <div className="navarea__right">
-                  <a href="contact.html" className="site-btn">
+                  <a href="/contact" className="site-btn">
                     Get A Quote <span>+</span>
                   </a>
                   <button className="search-trigger">
